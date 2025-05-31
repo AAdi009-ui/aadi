@@ -41,6 +41,6 @@ async def main():
 
 if __name__ == "__main__":
     if TOKEN is None:
-        logger.error("DISCORD_BOT_TOKEN not found. Please set it in the .env file.")
+        logger.error("DISCORD_BOT_TOKEN not found")
     else:
         asyncio.run(main())
